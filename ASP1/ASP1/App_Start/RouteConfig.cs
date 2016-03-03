@@ -16,7 +16,7 @@ namespace ASP1
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "In", action = "Input", id = UrlParameter.Optional }
+                defaults: new { controller = "In", action = "Output", id = UrlParameter.Optional }
             );
         }
     }

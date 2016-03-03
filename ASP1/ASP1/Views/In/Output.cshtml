@@ -1,0 +1,19 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+<table>
+    @{
+        foreach (var line in ViewBag.Content)
+        {
+            <tr>
+                <td>
+                    @line
+                </td>
+            </tr>
+        }
+    }
+</table>
+</body>
+</html>
